@@ -1,0 +1,53 @@
+class biodata {
+	
+	private String nama, nik, nisn, jenis_kelamin, tempat_lahir, alamat, agama, suku_bangsa, no_tlp;
+	private int tgl_lahir, bln_lahir, thn_lahir;
+	
+	
+	public biodata(String nama,String nik,String nisn,String jenis_kelamin,String tempat_lahir,String alamat,String agama, String suku_bangsa, String no_tlp, int tgl_lahir, int bln_lahir, int thn_lahir)
+	{
+		this.nama=nama;
+		this.nik= nik;
+		this.nisn=nisn;
+		this.jenis_kelamin=jenis_kelamin;
+		this.tempat_lahir=tempat_lahir;
+		this.alamat=alamat;
+		this.agama=agama;
+		this.suku_bangsa=suku_bangsa;
+		this.no_tlp=no_tlp;
+		this.tgl_lahir=tgl_lahir;
+		this.bln_lahir=bln_lahir;
+		this.thn_lahir=thn_lahir;
+		
+	}
+	
+	
+	public String getNama() {
+		return nama;
+	}public String getNik() {
+		return nik;
+	}public String getNisn() {
+		return nisn;
+	}public String getJenis_kelamin() {
+		return jenis_kelamin;
+	}public String getTempat_lahir() {
+		return tempat_lahir;
+	}public String getAlamat() {
+		return alamat;
+	}public String getAgama() {
+		return agama;
+	}public String getSuku_bangsa() {
+		return suku_bangsa;
+	}public String getNo_tlp() {
+		return no_tlp;
+	}public int getTgl_lahir() {
+		return tgl_lahir;
+	}public int getBln_lahir() {
+		return bln_lahir;
+	}public int getThn_lahir() {
+		return thn_lahir;
+	}
+	
+	
+	
+}
