@@ -1,0 +1,23 @@
+public class biodatamhs{
+	public static void main(String []args)
+	{
+		biodata mhs= new biodata(" Dinda Meysya Rochma"," 3215177105990001"," 9996097867"," Perempuan"," Karawang", 
+		" Telagasari", " Islam", " Sunda", " 085719608278", 31, 05, 1999);
+		System.out.println();
+		System.out.println( " \tBIODATA MAHASISWA");
+		System.out.println();
+		System.out.println(" Nama			:"+mhs.getNama());
+		System.out.println(" NIK			:"+mhs.getNik());
+		System.out.println(" NISN			:"+mhs.getNisn());
+		System.out.println(" Jenis Kelamin		:"+mhs.getJenis_kelamin());
+		System.out.println(" Tempat Lahir		:"+mhs.getTempat_lahir());
+		System.out.println(" Tanggal Lahir		: "+mhs.getTgl_lahir());
+		System.out.println(" Bulan Lahir		: "+mhs.getBln_lahir());
+		System.out.println(" Tahun Lahir		: "+mhs.getThn_lahir());
+		System.out.println(" Agama			:"+mhs.getAgama());
+		System.out.println(" Suku Bangsa		:"+mhs.getSuku_bangsa());
+		System.out.println(" Alamat 		:"+mhs.getAlamat());
+		System.out.println(" No Telepon		:"+mhs.getNo_tlp());
+		
+	}
+}
