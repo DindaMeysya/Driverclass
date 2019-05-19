@@ -1,11 +1,11 @@
-public class perpustakaan_over extends kartuperpus_over
+public class perpustakaan extends kartuperpus
 {
 
 	private String perpus;
 	
-	perpustakaan_over (String nama, String nim, String fakultas, String jurusan, String alamat, String no_tlp, String perpus)
+	perpustakaan (String nama, String nim, String fakultas, String jurusan, String alamat, String no_tlp, String NamaPerpus)
 	{
-		super(nama, nim, fakultas, jurusan, alamat, no_tlp);
+		super(nama, nim, fakultas, jurusan, alamat, no_tlp, NamaPerpus);
 		this.perpus=perpus;
 	}
 	
